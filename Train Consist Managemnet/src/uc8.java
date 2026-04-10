@@ -1,9 +1,9 @@
 import java.util.*;
 import java.util.stream.*;
 
-class Bogie {
-String type;
-int capacity;
+class uc8 {
+    String type;
+    int capacity;
 
     public Bogie(String type, int capacity) {
         this.type = type;
@@ -16,8 +16,8 @@ int capacity;
     }
 }
 
-public class Main {
-public static void main(String[] args) {
+public class uc8 {
+    public static void main(String[] args) {
 
         // Step 1: Create list of passenger bogies
         List<Bogie> bogies = new ArrayList<>();
