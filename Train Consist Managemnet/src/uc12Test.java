@@ -52,3 +52,4 @@ public class TrainSafetyTest {
         assertTrue(TrainSafetyApp.isTrainSafe(list));
     }
 }
+
