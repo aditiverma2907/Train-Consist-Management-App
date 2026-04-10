@@ -1,6 +1,8 @@
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.*;
 
-class uc10Test import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class TrainValidationTest {
@@ -52,6 +54,4 @@ class TrainValidationTest {
         assertFalse(TrainValidationApp.isValidTrainID("TRN-1234X"));
         assertFalse(TrainValidationApp.isValidCargoCode("PET-ABC"));
     }
-}{
-
 }
