@@ -1,5 +1,5 @@
 import java.util.*;
-import java.util.stream.*;
+        import java.util.stream.*;
 
 class uc9 {
     String type;
@@ -39,4 +39,3 @@ public class uc9 {
         System.out.println("\nOriginal Bogie List:");
         bogies.forEach(System.out::println);
     }
-}
